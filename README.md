@@ -40,7 +40,7 @@ Identified nine use cases for this application, where the service personnel is t
 
 ### SOFTWARE ARCHITECTURE FOR A SOCKET-BASED CLIENT-SERVER APPLICATION
 <p align="center">
-  <img width="80%" src="https://ibb.co/FwYzrrY">
+  <img width="80%" src="https://i.ibb.co/YkdhCCd/SOFTVERSKA-ARHITEKTURA.png">
 </p>
 
 ## Use of Server Side(ServerskiProgram)
