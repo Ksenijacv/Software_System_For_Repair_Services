@@ -2,6 +2,14 @@
 
 This software system, part of a Java-based Client-Server System with MySQL Integration project, manages records of computer repair service operations. It facilitates client-server communication with a MySQL database backend, incorporating an In-between Communication Side known as Zajednicki. This system handles spare computer parts, enabling seamless replacement in case of malfunctions. It meticulously tracks part availability, quantities, and evaluates service feasibility based on component availability. The project structure includes three main components: ServerskiProgram (Server-side), KlijentskiProgram (Client-side), and Zajednicki (In-between Communication Side).
 
+## Conceptual model
+
+Using the conceptual model, we describe the structure of the system. The conceptual model includes conceptual classes (domain objects) and associations between conceptual classes.
+<p align="center">
+  <img width="80%" src="https://i.ibb.co/tmWmdDP/image.png">
+</p>
+
+
 ## Key Components
 
 - **👨‍🔧Service Personnel👨‍🔧**: Individuals who interact with the system to manage repair operations.
