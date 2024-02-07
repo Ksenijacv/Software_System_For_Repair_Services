@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package konstante;
+package transfer_operacije;
 
 /**
  *
- * @author USER
+ * @author Ksenija
  */
-public interface Operacije {
-
+public enum StatusOdgovora {
+    Success, Error
 }

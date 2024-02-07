@@ -6,38 +6,49 @@
 package transfer;
 
 import java.io.Serializable;
+import transfer_operacije.StatusOdgovora;
 
 /**
  *
- * @author USER
+ * @author Ksenija
  */
 public class ServerskiOdgovor implements Serializable {
 
-    private Object odgovor;
-    private String poruka;
+    private Object data;
+    private Exception error;
+    private StatusOdgovora responseStatus;
 
     public ServerskiOdgovor() {
     }
 
-    public ServerskiOdgovor(Object odgovor, String poruka) {
-        this.odgovor = odgovor;
-        this.poruka = poruka;
+    public ServerskiOdgovor(Object data, Exception error, StatusOdgovora responseStatus) {
+        this.data = data;
+        this.error = error;
+        this.responseStatus = responseStatus;
     }
 
-    public String getPoruka() {
-        return poruka;
+    public Object getData() {
+        return data;
     }
 
-    public void setPoruka(String poruka) {
-        this.poruka = poruka;
+    public void setData(Object data) {
+        this.data = data;
     }
 
-    public Object getOdgovor() {
-        return odgovor;
+    public Exception getError() {
+        return error;
     }
 
-    public void setOdgovor(Object odgovor) {
-        this.odgovor = odgovor;
+    public void setError(Exception error) {
+        this.error = error;
+    }
+
+    public StatusOdgovora getResponseStatus() {
+        return responseStatus;
+    }
+
+    public void setResponseStatus(StatusOdgovora responseStatus) {
+        this.responseStatus = responseStatus;
     }
 
 }

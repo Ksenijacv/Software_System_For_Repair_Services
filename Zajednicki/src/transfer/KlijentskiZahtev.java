@@ -9,35 +9,35 @@ import java.io.Serializable;
 
 /**
  *
- * @author USER
+ * @author Ksenija
  */
 public class KlijentskiZahtev implements Serializable {
 
-    private int operacija;
-    private Object parametar;
+    private int operation;
+    private Object data;
 
     public KlijentskiZahtev() {
     }
 
-    public KlijentskiZahtev(int operacija, Object parametar) {
-        this.operacija = operacija;
-        this.parametar = parametar;
+    public KlijentskiZahtev(int operation, Object data) {
+        this.operation = operation;
+        this.data = data;
     }
 
-    public Object getParametar() {
-        return parametar;
+    public Object getData() {
+        return data;
     }
 
-    public void setParametar(Object parametar) {
-        this.parametar = parametar;
+    public int getOperation() {
+        return operation;
     }
 
-    public int getOperacija() {
-        return operacija;
+    public void setData(Object data) {
+        this.data = data;
     }
 
-    public void setOperacija(int operacija) {
-        this.operacija = operacija;
+    public void setOperation(int operation) {
+        this.operation = operation;
     }
 
 }
